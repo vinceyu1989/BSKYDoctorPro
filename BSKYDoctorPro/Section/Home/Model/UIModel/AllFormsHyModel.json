@@ -1,0 +1,99 @@
+
+{
+    "基本信息":
+    [
+         {"title":"随访时间","contentStr":"","placeholder":"请选择随访时间","isRequired":"1","pickerModels":[{"title":"随访时间","min":-24,"max":24}]},
+     
+         {"title":"下次随访时间","contentStr":"","placeholder":"请选择下次随访时间","isRequired":"1","pickerModels":[{"title":"随访时间","min":-24,"max":24}]},
+     
+         {"title":"随访方式","contentStr":"","placeholder":"","isRequired":"1","options":["门诊","家庭","电话"]},
+     
+         {"title":"随访医生","contentStr":"","placeholder":"请选择","isRequired":"1","types":[]}
+     ],
+    "症状(多选)":
+    [
+         {"title":"症状(多选)","contentStr":"","placeholder":"","options":["无症状","头痛头晕","恶心呕吐","眼花耳鸣","呼吸困难","心悸胸闷","鼻衄","四肢发麻","下肢水肿"]}
+     ],
+    "体征":
+    [
+         {"title":"血压(mmHg)","contentStr":"","placeholder":"请选择","isRequired":"1",
+         "pickerModels":[{"title":"收缩压","min":70,"max":240,"point":1, "unit":"mmHg","content":"130"},
+                         {"title":"舒张压","min":30,"max":140,"point":1, "unit":"mmHg","content":"80"}]
+         },
+     
+         {"title":"身高(cm)","contentStr":"","placeholder":"请选择","isRequired":"1",
+         "pickerModels":[{"title":"身高","min":80,"max":240,"point":1, "unit":"cm","content":"150"}]
+         },
+     
+         {"title":"体重(kg)","contentStr":"","placeholder":"请输入","isRequired":"1"},
+     
+         {"title":"目标体重(kg)","contentStr":"","placeholder":"请输入","isRequired":"1"},
+     
+         {"title":"体质指数(BMI)","contentStr":"","placeholder":" "},
+     
+         {"title":"心率(次/分钟)","lastTitle":"heartRate","contentStr":"","placeholder":"请选择","isRequired":"1",
+         "pickerModels":[{"title":"心率","min":30,"max":180,"point":1, "unit":"次/分钟","content":"80"}]},
+     
+         {"title":"视力","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"左眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"},
+                         {"title":"右眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"}]},
+     
+         {"title":"矫正视力","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"左眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"},
+                         {"title":"右眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"}]},
+     
+         {"title":"听力","contentStr":"","placeholder":"","options":["听见","听不见或听不清"]},
+     
+         {"title":"运动","contentStr":"","placeholder":"","options":["可顺利完成","无法独立完成"]}
+    ],
+    "生活方式指导":
+    [
+         {"title":"日饮酒量(两/日)","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"当前","min":0,"max":30,"point":1, "unit":"两/日","content":"15"},
+                         {"title":"目标","min":0,"max":30,"point":1, "unit":"两/日","content":"15"}]
+         },
+     
+         {"title":"日吸烟量(支/日)","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"当前","min":0,"max":60,"point":1, "unit":"支/日","content":"30"},
+                         {"title":"目标","min":0,"max":60,"point":1, "unit":"支/日","content":"30"}]
+         },
+     
+         {"title":"摄盐情况","contentStr":"","placeholder":"请选择","options":["轻","中","重"]},
+     
+         {"title":"目标摄盐情况","contentStr":"","placeholder":"请选择","options":["轻","中","重"]},
+     
+         {"title":"运动次数(次/周)","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"当前","min":0,"max":50,"point":1, "unit":"次/周"},
+                         {"title":"目标","min":0,"max":50,"point":1, "unit":"次/周"}]
+         },
+     
+         {"title":"运动时间(分钟/次)","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"当前","min":0,"max":200,"point":1,"multiple":10, "unit":"分钟/次","content":"30"},
+                         {"title":"目标","min":0,"max":200,"point":1,"multiple":10, "unit":"分钟/次","content":"30"}]
+         },
+         {"title":"心理调整","contentStr":"","placeholder":"请选择","options":["良好","一般","差"]},
+     
+         {"title":"遵医行为","contentStr":"","placeholder":"请选择","options":["良好","一般","差"]}
+     ],
+    "辅助检查":
+    [],
+    "药物相关":
+    [
+         {"title":"服药依从性","contentStr":"","placeholder":"请选择","options":["规律","间断","不服药"]},
+     
+         {"title":"药物不良反应","contentStr":"","placeholder":"请选择","options":["无","有"]},
+     
+         {"title":"用药情况","contentStr":""}
+     ],
+    "随访分类":
+    [
+         {"title":"随访分类","contentStr":"","placeholder":"","options":["控制满意","控制不满意","不良反应","并发症"]},
+         {"title":"随访结局(非必填)","contentStr":"","placeholder":"请选择","options":[]}
+     ],
+    "转诊":
+    [
+         {"title":"原因","contentStr":"","placeholder":"请输入转诊原因"},
+     
+         {"title":"机构及科别","contentStr":"","placeholder":"请输入转诊机构及科别"}
+    ]
+}

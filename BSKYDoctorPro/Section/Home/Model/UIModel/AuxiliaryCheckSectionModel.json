@@ -1,0 +1,57 @@
+
+[
+ {"title":"血糖","data":
+ [{"title":"空腹血糖值(mmol/L)", "pickerModels":[{"title":"空腹血糖值","min":0,"max":300,"point":1, "unit":"mmol/L"}]},],"type":1},
+ {"title":"血常规","data":
+        [{"title":"血红蛋白(g/L)", "pickerModels":[{"title":"血红蛋白","min":10,"max":300,"point":1, "unit":"g/L"}]},
+         {"title":"白细胞(x10^9/L)","pickerModels":[{"title":"白细胞","min":0,"max":50,"point":1, "unit":"x10^9/L"}]},
+         {"title":"血小板(x10^9/L)","pickerModels":[{"title":"血小板","min":0,"max":50,"point":1, "unit":"x10^9/L"}]},
+         {"title":"其他 "}],"type":1},
+ 
+ {"title":"尿常规","data":
+     [{"title":"尿蛋白(mg/mmol-Cr)","pickerModels":[{"title":"尿蛋白","min":10,"max":300,"point":1, "unit":"mg/mmol-Cr"}]},
+      {"title":"尿糖","pickerModels":[{"title":"尿糖","min":10,"max":300,"point":1, "unit":""}]},
+      {"title":"尿酮体(mg/dl)","pickerModels":[{"title":"尿酮体","min":10,"max":300,"point":1, "unit":"mg/dl"}]},
+      {"title":"尿潜血","pickerModels":[{"title":"尿潜血","min":10,"max":300,"point":1, "unit":"mg/dl"}]},
+      {"title":"其他  "}],"type":1},
+ 
+     {"title":"心电图","data":[{"title":"正常"},{"title":"异常"}],"type":2},
+ 
+ {"title":"尿微量白蛋白","data":
+     [{"title":"尿微量白蛋白(mg/dl)","pickerModels":[{"title":"尿微量白蛋白","min":10,"max":300,"point":1, "unit":"mg/dl"}]}],"type":1},
+ 
+ {"title":"大便潜血","data":[{"title":"阴性"},{"title":"阳性"}],"type":2},
+ 
+ {"title":"肝功能","data":
+     [{"title":"血清谷丙转氨酶(U/L)","pickerModels":[{"title":"血清谷丙转氨酶","min":10,"max":300,"point":1, "unit":"U/L"}]},
+      {"title":"血清草转氨酶清(U/L)","pickerModels":[{"title":"血清草转氨酶清","min":10,"max":300,"point":1, "unit":"U/L"}]},
+      {"title":"总胆红素(μmol/L)","pickerModels":[{"title":"总胆红素","min":10,"max":300,"point":1, "unit":"μmol/L"}]},
+      {"title":"结合胆红素(μmol/L)","pickerModels":[{"title":"结合胆红素","min":10,"max":300,"point":1, "unit":"μmol/L"}]},
+      {"title":"白蛋白(g/L)","pickerModels":[{"title":"白蛋白","min":10,"max":300,"point":1, "unit":"g/L"}]}
+      ],"type":1},
+ 
+ {"title":"乙型肝炎表面抗原","data":
+     [{"title":"乙型肝炎表面抗原(%)","pickerModels":[{"title":"乙型肝炎表面抗原(%)","min":10,"max":300,"point":1, "unit":""}]}],"type":1},
+ 
+ {"title":"血脂","data":
+     [{"title":"总胆固醇(mmol/L)","pickerModels":[{"title":"总胆固醇","min":10,"max":300,"point":1, "unit":"mmol/L"}]},
+      {"title":"甘油三酯(mmol/L)","pickerModels":[{"title":"甘油三酯","min":10,"max":300,"point":1, "unit":"mmol/L"}]},
+      {"title":"血清低密度脂蛋白胆固醇(mmol/L)","pickerModels":[{"title":"血清低密度脂蛋白胆固醇","min":10,"max":300,"point":1, "unit":"mmol/L"}]},
+      {"title":"血清高密度脂蛋白胆固醇(mmol/L)","pickerModels":[{"title":"血清高密度脂蛋白胆固醇","min":10,"max":300,"point":1, "unit":"mmol/L"}]}],"type":1},
+ 
+ {"title":"胸部X线片","data":[{"title":"正常"},{"title":"异常"}],"type":2},
+ 
+ {"title":"B超","data":[{"title":"正常"},{"title":"异常"}],"type":2},
+ 
+ {"title":"宫颈涂片","data":[{"title":"正常"},{"title":"异常"}],"type":2},
+ 
+ {"title":"糖化血红蛋白","data":[{"title":"糖化血红蛋白(%)","pickerModels":[{"title":"糖化血红蛋白(%)","min":10,"max":300,"point":1, "unit":"%"}]}],"type":1},
+ 
+ {"title":"肾功能","data":
+     [{"title":"血清肌酐(μmol/L)","pickerModels":[{"title":"血清肌酐","min":10,"max":300,"point":1, "unit":"μmol/L"}]},
+      {"title":"血尿素氮(mmol/L)","pickerModels":[{"title":"血尿素氮","min":10,"max":300,"point":1, "unit":"mmol/L"}]},
+      {"title":"血钾浓度(mmol/L)","pickerModels":[{"title":"血钾浓度","min":10,"max":300,"point":1, "unit":"mmol/L"}]},
+      {"title":"血钠浓度(mmol/L)","pickerModels":[{"title":"血钠浓度","min":10,"max":300,"point":1, "unit":"mmol/L"}]}],"type":1},
+ 
+ {"title":"其他","data":[{"title":"其他"}],"type":1}
+]

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="SystemContentTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcw-1d-LIq">
+                        <rect key="frame" x="15" y="15" width="66" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inStation_system" translatesAutoresizingMaskIntoConstraints="NO" id="XLt-zS-66g">
+                        <rect key="frame" x="15" y="44.5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="H4k-lg-Paa"/>
+                            <constraint firstAttribute="height" constant="60" id="YO9-VH-KTX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您今天还有待处理的随访任务，请记得尽快处理完成。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWY-NJ-xHF">
+                        <rect key="frame" x="90" y="49.5" width="215" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" priority="250" constant="33.5" id="Mcx-9m-EzX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="EWY-NJ-xHF" firstAttribute="top" secondItem="XLt-zS-66g" secondAttribute="top" constant="5" id="LcU-xv-enq"/>
+                    <constraint firstItem="EWY-NJ-xHF" firstAttribute="leading" secondItem="XLt-zS-66g" secondAttribute="trailing" constant="15" id="UO8-sC-qv8"/>
+                    <constraint firstItem="Kcw-1d-LIq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="YfV-6z-nXe"/>
+                    <constraint firstItem="Kcw-1d-LIq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="ZCe-pD-UZ4"/>
+                    <constraint firstAttribute="trailing" secondItem="EWY-NJ-xHF" secondAttribute="trailing" constant="15" id="a3f-Ur-E3b"/>
+                    <constraint firstItem="XLt-zS-66g" firstAttribute="leading" secondItem="Kcw-1d-LIq" secondAttribute="leading" id="aCs-Cx-Oto"/>
+                    <constraint firstItem="XLt-zS-66g" firstAttribute="top" secondItem="Kcw-1d-LIq" secondAttribute="bottom" constant="15" id="iZa-dl-xFb"/>
+                    <constraint firstAttribute="bottom" secondItem="XLt-zS-66g" secondAttribute="bottom" constant="25" id="qfX-gw-cIY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="msgContentLabel" destination="EWY-NJ-xHF" id="R7T-GC-vRH"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="inStation_system" width="45" height="45"/>
+    </resources>
+</document>

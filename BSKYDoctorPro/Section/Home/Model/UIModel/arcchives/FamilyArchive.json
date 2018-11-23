@@ -1,0 +1,345 @@
+{
+    "FamilyArchiveModel":{
+        "contentStr": "",
+        "content": [
+                    {
+                    "title": "家庭人口",
+                    "code": "MemberCount",
+                    "value": "",
+                    "placeholder": "请输入人口数",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2",
+                    "keybordType": "4",
+                    "unit": "  人"
+                    },
+                    {
+                    "title": "现住人口",
+                    "code": "CurrentCount",
+                    "value": "",
+                    "placeholder": "请输入人口数",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2",
+                    "keybordType": "4",
+                    "unit": "  人"
+                    },
+                    {
+                    "title": "家庭电话",
+                    "code": "FamilyTel",
+                    "value": "",
+                    "placeholder": "请输入11位电话号码",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "keybordType": "4",
+                    "type": "2"
+                    },
+                    {
+                    "title": "行政区划",
+                    "code": "RegionID",
+                    "value": "",
+                    "placeholder": "请选择",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "14"
+                    },
+                    {
+                    "title": "家庭住址",
+                    "code": "FamilyAddress",
+                    "value": "",
+                    "placeholder": "请精准到门牌号",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "家庭自定义编号",
+                    "code": "CustomNumber",
+                    "value": "",
+                    "placeholder": "请输入自定义编号数字",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "住房面积",
+                    "code": "HouseArea",
+                    "value": "",
+                    "placeholder": "请输入面积",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2",
+                    "keybordType": "2",
+                    "unit": "  ㎡"
+                    },
+                    {
+                    "title": "残疾人数",
+                    "code": "DisabilityCount",
+                    "value": "",
+                    "placeholder": "请输入人口数",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "keybordType": "4",
+                    "contentStr": "",
+                    "type": "2",
+                    "unit": "  人"
+                    },
+                    {
+                    "title": "距离卫生站距离",
+                    "code": "Tohealthstation",
+                    "value": "",
+                    "placeholder": "请输入距离",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "keybordType": "2",
+                    "type": "2",
+                    "unit": "  km"
+                    },
+                    {
+                    "title": "距离卫生院距离",
+                    "code": "Tohospitals",
+                    "value": "",
+                    "placeholder": "请输入距离",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "keybordType": "2",
+                    "type": "2",
+                    "unit": "  km"
+                    },
+                    {
+                    "title": "家庭位置",
+                    "code": "Position",
+                    "sourceCode": "family_location",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "未知",
+                                "value": "未知"
+                                },
+                                {
+                                "lebel": "集居",
+                                "value": "集居"
+                                },
+                                {
+                                "lebel": "孤居",
+                                "value": "孤居"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "住房类型",
+                    "code": "HouseType",
+                    "sourceCode": "gw_house_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "未知",
+                                "value": "0"
+                                },
+                                {
+                                "lebel": "平房",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "楼房",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "四合院",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "高层电梯公寓",
+                                "value": "4"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "厕所类型",
+                    "code": "ToiletType",
+                    "sourceCode": "gw_toilet_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "未知",
+                                "value": "0"
+                                },
+                                {
+                                "lebel": "马桶",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "蹲厕",
+                                "value": "2"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "使用燃料",
+                    "code": "FuelType",
+                    "sourceCode": "gw_family_fule_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "未知",
+                                "value": "0"
+                                },
+                                {
+                                "lebel": "天然气",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "煤气",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "蜂窝煤",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "木材",
+                                "value": "4"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "有无冰箱",
+                    "code": "HaveIcebox",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "有",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "无",
+                                "value": "0"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "饮用水源",
+                    "code": "WaterType",
+                    "sourceCode": "gw_family_drinking_water",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "未知",
+                                "value": "0"
+                                },
+                                {
+                                "lebel": "自来水",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "井水",
+                                "value": "2"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "求助人群",
+                    "code": "Salcro",
+                    "sourceCode": "gw_rescu_people",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "请选择",
+                                "value": "0"
+                                },
+                                {
+                                "lebel": "军烈属",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "五保户",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "残疾人",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "特困户",
+                                "value": "4"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "备注",
+                    "code": "Remark",
+                    "value": "",
+                    "placeholder": "请输入备注内容",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "6"
+                    }
+                    ]
+    }
+}

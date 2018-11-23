@@ -1,0 +1,284 @@
+{
+    "contentStr": "",
+    "content": [
+                {
+                "title": "姓名",
+                "code": "personID",
+                "value": "",
+                "placeholder": "点击选择居民",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "12",
+                "keybordType": "4"
+                },
+                {
+                "title": "性别",
+                "code": "gender",
+                "value": "",
+                "placeholder": "根据选择居民显示",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "4",
+                "keybordType": "4"
+                },
+                {
+                "title": "身份证号",
+                "code": "cardId",
+                "value": "",
+                "placeholder": "根据选择居民显示",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "keybordType": "4",
+                "type": "4"
+                },
+                {
+                "title": "联系电话",
+                "code": "personTel",
+                "value": "",
+                "placeholder": "请输入",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "2"
+                },
+                {
+                "title": "血压(mmHg)",
+                "code": "bp",
+                "value": "",
+                "placeholder": "请选择",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "14",
+                "unit": " mmHg",
+                "pickerModels":[
+                                {
+                                "title":"收缩压",
+                                "min":70,
+                                "max":240,
+                                "point":1,
+                                "unit":"mmHg",
+                                "content":"130"
+                                },
+                                {
+                                "title":"舒张压",
+                                "min":30,
+                                "max":140,
+                                "point":1,
+                                "unit":"mmHg",
+                                "content":"80"
+                                }
+                                ]
+                },
+                {
+                "title": "高血压分级",
+                "code": "hyLevel",
+                "value": "",
+                "placeholder": "请选择",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "1",
+                "unit": " mmHg",
+                "pickerModel":{
+                "options": [
+                            {
+                            "lebel": "不详",
+                            "value": "0"
+                            },
+                            {
+                            "lebel": "1级高血压(轻度)",
+                            "value": "1"
+                            },
+                            {
+                            "lebel": "2级高血压(中度)",
+                            "value": "2"
+                            },
+                            {
+                            "lebel": "3级高血压(重度)",
+                            "value": "4"
+                            },
+                            {
+                            "lebel": "单纯收缩期高血压",
+                            "value": "8"
+                            },
+                            {
+                            "lebel": "正常高值",
+                            "value": "16"
+                            },
+                            {
+                            "lebel": "正常血压",
+                            "value": "32"
+                            }
+                            ]
+                }
+                },
+                {
+                "title": "其他危险因素",
+                "code": "otherRiskFactors",
+                "value": "",
+                "placeholder": "",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "3",
+                "selectModel": {
+                "multiple": "1",
+                "options": [
+                            {
+                            "lebel": "无",
+                            "value": "1"
+                            },
+                            {
+                            "lebel": "收缩压和舒张压水平(1-3级)",
+                            "value": "2"
+                            },
+                            {
+                            "lebel": "男性>55岁，女性>65岁",
+                            "value": "4"
+                            },
+                            {
+                            "lebel": "烟",
+                            "value": "8"
+                            },
+                            {
+                            "lebel": "血脂异常",
+                            "value": "16"
+                            },
+                            {
+                            "lebel": "早发心血管病家族史",
+                            "value": "32"
+                            },
+                            {
+                            "lebel": "腹型肥胖",
+                            "value": "64"
+                            },
+                            {
+                            "lebel": "C反应蛋白",
+                            "value": "128"
+                            },
+                            {
+                            "lebel": "糖尿病",
+                            "value": "256"
+                            },
+                            {
+                            "lebel": "缺乏体力活动",
+                            "value": "512"
+                            }
+                            ]
+                }
+                },
+                {
+                "title": "靶器官损害",
+                "code": "targetOrganDamage",
+                "value": "",
+                "placeholder": "请输入面积",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "type": "3",
+                "keybordType": "2",
+                "selectModel": {
+                "multiple": "1",
+                "options": [
+                            {
+                            "lebel": "无",
+                            "value": "1"
+                            },
+                            {
+                            "lebel": "心",
+                            "value": "2"
+                            },
+                            {
+                            "lebel": "脑",
+                            "value": "4"
+                            },
+                            {
+                            "lebel": "肾",
+                            "value": "8"
+                            }
+                            ]
+                }
+                },
+                {
+                "title": "临床并发症",
+                "code": "clinicalComplications",
+                "value": "",
+                "placeholder": "",
+                "isRequire": "1",
+                "canEdit": "1",
+                "keybordType": "4",
+                "contentStr": "",
+                "type": "3",
+                "selectModel": {
+                "multiple": "1",
+                "options": [
+                            {
+                            "lebel": "无",
+                            "value": "1"
+                            },
+                            {
+                            "lebel": "高血压心脏病",
+                            "value": "2"
+                            },
+                            {
+                            "lebel": "冠心病",
+                            "value": "4"
+                            },
+                            {
+                            "lebel": "高血压脑病",
+                            "value": "8"
+                            },
+                            {
+                            "lebel": "脑血管病",
+                            "value": "16"
+                            },
+                            {
+                            "lebel": "高血压危象",
+                            "value": "32"
+                            },
+                            {
+                            "lebel": "慢性肾功能衰竭",
+                            "value": "64"
+                            }
+                            ]
+                }
+                },
+                {
+                "title": "责任医生",
+                "code": "doctorID",
+                "value": "",
+                "placeholder": "请选择",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "keybordType": "2",
+                "type": "12"
+                },
+                {
+                "title": "确诊日期",
+                "code": "diagnosisDate",
+                "value": "",
+                "placeholder": "请选择",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "keybordType": "2",
+                "type": "0"
+                },
+                {
+                "title": "建档日期",
+                "code": "recordDate",
+                "value": "",
+                "placeholder": "请选择",
+                "isRequire": "1",
+                "canEdit": "1",
+                "contentStr": "",
+                "keybordType": "2",
+                "type": "0"
+                }
+                ]
+}

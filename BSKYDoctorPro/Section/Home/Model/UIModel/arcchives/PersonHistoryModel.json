@@ -1,0 +1,81 @@
+{
+    "pastHistory":{
+        "contentStr": "既往史",
+        "content": [
+                    {
+                    "title": "疾病史",
+                    "descripe": "(没有则不填)",
+                    "code": "diseaseHistory",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "8"
+                    },
+                    {
+                    "title": "手术史",
+                    "descripe": "(没有则不填)",
+                    "code": "surgeryHistory",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "8"
+                    },
+                    {
+                    "title": "外伤史",
+                    "descripe": "(没有则不填)",
+                    "code": "traumaHistory",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "8"
+                    },
+                    {
+                    "title": "输血史",
+                    "descripe": "(没有则不填)",
+                    "code": "bloodHistory",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "8"
+                    }
+                    ]
+    },
+    "familyHistory":{
+        "contentStr": "",
+        "content":[
+                   {
+                   "title": "家族史(没有则不填)",
+                   "code": "familyHistory",
+                   "value": "",
+                   "placeholder": "",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "9"
+                   }
+                   ]
+    },
+    "geneticHistory":{
+        "contentStr": "",
+        "content":[
+                   {
+                   "title": "遗传病史(没有则不填)",
+                   "code": "geneticHistory",
+                   "value": "",
+                   "placeholder": "",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "9"
+                   }
+                   ]
+    }
+}

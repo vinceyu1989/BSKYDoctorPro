@@ -1,0 +1,246 @@
+{
+    "diseaseHistory":{
+        "contentStr": "疾病史",
+        "code": "diseaseHistory",
+        "content": [
+                    {
+                    "title": "疾病",
+                    "descripe": "",
+                    "code": "diseaseKindId",
+                    "value": "",
+                    "placeholder": "请选择疾病",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "确诊时间",
+                    "descripe": "",
+                    "code": "diagnosisDate",
+                    "value": "",
+                    "placeholder": "请选择确证时间",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "0"
+                    }
+                    ]
+    },
+    "surgeryHistory":{
+        "contentStr": "手术",
+        "code": "surgeryHistory",
+        "content":[
+                   {
+                   "title": "手术",
+                   "code": "name",
+                   "value": "",
+                   "placeholder": "请输入手术描述",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   },
+                   {
+                   "title": "确诊时间",
+                   "descripe": "",
+                   "code": "occurrenceDate",
+                   "value": "",
+                   "placeholder": "请选择确证时间",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "0"
+                   }
+                   ]
+    },
+    "traumaHistory":{
+        "contentStr": "外伤史",
+        "code": "traumaHistory",
+        "content":[
+                   {
+                   "title": "外伤",
+                   "code": "name",
+                   "value": "",
+                   "placeholder": "请输入外伤描述",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   },
+                   {
+                   "title": "确诊时间",
+                   "descripe": "",
+                   "code": "occurrenceDate",
+                   "value": "",
+                   "placeholder": "请选择确证时间",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "0"
+                   }
+                   ]
+    },
+    "bloodHistory":{
+        "contentStr": "输血史",
+        "code": "bloodHistory",
+        "content":[
+                   {
+                   "title": "输血",
+                   "code": "name",
+                   "value": "",
+                   "placeholder": "请输入输血描述",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   },
+                   {
+                   "title": "确诊时间",
+                   "descripe": "",
+                   "code": "occurrenceDate",
+                   "value": "",
+                   "placeholder": "请选择确证时间",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "0"
+                   }
+                   ]
+    },
+    "familyHistory":{
+        "contentStr": "家族史",
+        "code": "familyHistory",
+        "content":[
+                   {
+                   "title": "亲属",
+                   "code": "relationshipType",
+                   "value": "",
+                   "placeholder": "请选择亲属",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "1"
+                   },
+                   {
+                   "title": "疾病",
+                   "descripe": "",
+                   "code": "disease",
+                   "value": "",
+                   "placeholder": "请输入其他疾病名称",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "6",
+                   "selectModel": {
+                   "multiple": "1",
+                   "options": [
+                               {
+                               "lebel": "无",
+                               "value": "1"
+                               },
+                               {
+                               "lebel": "高血压",
+                               "value": "2"
+                               },
+                               {
+                               "lebel": "糖尿病",
+                               "value": "4"
+                               },
+                               {
+                               "lebel": "冠心病",
+                               "value": "8"
+                               },
+                               {
+                               "lebel": "慢性阻塞性肺疾病",
+                               "value": "16"
+                               },
+                               {
+                               "lebel": "重型精神病",
+                               "value": "32"
+                               },
+                               {
+                               "lebel": "肝炎",
+                               "value": "64"
+                               },
+                               {
+                               "lebel": "先天畸形",
+                               "value": "128"
+                               },
+                               {
+                               "lebel": "恶性肿瘤",
+                               "value": "256"
+                               },
+                               {
+                               "lebel": "脑中猝",
+                               "value": "512"
+                               },
+                               {
+                               "lebel": "肺结核",
+                               "value": "1024"
+                               },
+                               {
+                               "lebel": "其他",
+                               "value": "2048"
+                               }
+                               ]
+                   }
+                   }
+                   ]
+    },
+    "geneticHistory":{
+        "contentStr": "遗传病史",
+        "code": "geneticHistory",
+        "content":[
+                   {
+                   "title": "遗传病",
+                   "code": "name",
+                   "value": "",
+                   "placeholder": "请输入遗传病名称",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   }
+                   ]
+    },
+    "diseaseHistoryOther":{
+        "contentStr": "疾病史",
+        "code": "diseaseHistoryOther",
+        "content": [
+                    {
+                    "title": "疾病",
+                    "descripe": "",
+                    "code": "diseaseKindId",
+                    "value": "",
+                    "placeholder": "请选择疾病",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "疾病名称",
+                    "descripe": "",
+                    "code": "remark",
+                    "value": "",
+                    "placeholder": "请输入相关疾病名称",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "确诊时间",
+                    "descripe": "",
+                    "code": "diagnosisDate",
+                    "value": "",
+                    "placeholder": "请选择确证时间",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "0"
+                    }
+                    ]
+    }
+}

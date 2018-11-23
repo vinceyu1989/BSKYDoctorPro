@@ -1,0 +1,68 @@
+
+{
+    "diabetes":
+    [
+        {"title":"随访时间","contentStr":"","placeholder":"请选择随访时间","pickerModels":[{"title":"随访时间","min":-24,"max":24}]},
+     
+        {"title":"下次随访时间","contentStr":"","placeholder":"请选择下次随访时间","pickerModels":[{"title":"随访时间","min":-24,"max":24}]},
+     
+        {"title":"随访方式","contentStr":"","placeholder":"","options":["门诊","家庭","电话"]},
+     
+        {"title":"症状(多选)","contentStr":"","placeholder":""},
+     
+        {"title":"血压(mmHg)","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"收缩压","min":70,"max":240,"point":1, "unit":"mmHg","content":"130"},
+                          {"title":"舒张压","min":30,"max":140,"point":1, "unit":"mmHg","content":"80"}]},
+     
+        {"title":"身高(cm)","lastTitle":"height","contentStr":"","placeholder":"请选择",
+           "pickerModels":[{"title":"身高","min":80,"max":240,"point":1, "unit":"cm","content":"150"}]},
+     
+        {"title":"体重(kg)","contentStr":"","placeholder":"请输入"},
+     
+        {"title":"目标体重(kg)","contentStr":"","placeholder":"请输入"},
+     
+        {"title":"体质指数(BMI)","contentStr":"","placeholder":" "},
+                
+        {"title":"空腹血糖值(mmol/L)","contentStr":"","placeholder":"请输入"},
+     
+        {"title":"餐后血糖值(mmol/L)","contentStr":"","placeholder":"请输入"},
+        
+        {"title":"随访分类","contentStr":"","placeholder":"请选择",
+         "types":["控制满意","控制不满意","不良反应","并发症"]},
+     
+        {"title":"随访医生","contentStr":"","placeholder":"请选择","types":[]}
+    ],
+    "hypertension":
+    [
+        {"title":"随访时间","contentStr":"","placeholder":"请选择随访时间","pickerModels":[{"title":"随访时间","min":-24,"max":24}]},
+        
+        {"title":"下次随访时间","contentStr":"","placeholder":"请选择下次随访时间","pickerModels":[{"title":"随访时间","min":-24,"max":24}]},
+     
+        {"title":"随访方式","contentStr":"","placeholder":"","options":["门诊","家庭","电话"]},
+     
+        {"title":"症状(多选)","contentStr":"","placeholder":""},
+     
+        {"title":"心率(次/分钟)","lastTitle":"heartRate","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"心率","min":30,"max":180,"point":1, "unit":"次/分钟","content":"80"}]},
+        
+        {"title":"血压(mmHg)","contentStr":"","placeholder":"请选择",
+         "pickerModels":[{"title":"收缩压","min":70,"max":240,"point":1, "unit":"mmHg","content":"130"},
+                     {"title":"舒张压","min":30,"max":140,"point":1, "unit":"mmHg","content":"80"}]},
+        
+        {"title":"身高(cm)","contentStr":"","placeholder":"请选择",
+          "pickerModels":[{"title":"身高","min":80,"max":240,"point":1, "unit":"cm","content":"150"}]},
+        
+        {"title":"体重(kg)","contentStr":"","placeholder":"请输入"},
+     
+        {"title":"目标体重(kg)","contentStr":"","placeholder":"请输入"},
+     
+        {"title":"体质指数(BMI)","contentStr":"","placeholder":" "},
+     
+        {"title":"随访分类","contentStr":"","placeholder":"请选择",
+         "types":["控制满意","控制不满意","不良反应","并发症"]},
+     
+        {"title":"随访医生","contentStr":"","placeholder":"请选择",
+         "types":[]}
+    ]
+}
+

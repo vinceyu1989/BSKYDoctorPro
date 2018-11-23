@@ -1,0 +1,21 @@
+[
+    [
+     {"title":"签约团队","contentStr":"","placeholder":"请选择签约团队"},
+     
+     {"title":"签约渠道","contentStr":"公卫推荐","placeholder":"请选择签约渠道"},
+     
+     {"title":"经办成员","contentStr":"","placeholder":"请选择经办成员"},
+     
+     {"title":"签约代表","contentStr":"","placeholder":"请输入签约代表姓名"},
+     
+     {"title":"开始时间","contentStr":"","placeholder":"请选择开始时间"},
+     
+     {"title":"结束时间","contentStr":"","placeholder":"请选择结束时间"}
+    ],
+    
+    [
+     {"title":"服务对象","contentStr":"","placeholder":"请选择服务对象"}
+    ]
+]
+
+

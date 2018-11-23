@@ -1,0 +1,15 @@
+
+[
+ {"title":"人群","contentStr":"-1","options":["高血压","重性精神病","糖尿病","结核病","0~6岁儿童","孕产妇","老年人"],"propertyName":"cmKind"},
+ 
+  {"title":"性别","contentStr":"-1","options":["男","女"],"propertyName":"gender"},
+  
+  {"title":"档案状态","contentStr":"1","options":["全部","活动","迁出","死亡","已删除","其他"],"propertyName":"isStatus"},
+  
+  {"title":"档案完善状态","contentStr":"-1","options":["完善","不完善"],"propertyName":"itemPerfect"},
+  
+  {"title":"是否贫困","contentStr":"-1","options":["贫困","非贫困"],"propertyName":"isPoor"},
+  
+  {"title":"是否流动人口","contentStr":"-1","options":["流动人口","非流动人口"],"propertyName":"isFlowing"},
+ {"title":"是否签约","contentStr":"-1","options":["已签约","未签约"],"propertyName":"isFlowing"}
+]

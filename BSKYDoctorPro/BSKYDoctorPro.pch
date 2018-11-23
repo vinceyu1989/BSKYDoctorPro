@@ -1,0 +1,82 @@
+//
+//  BSKYDoctorPro.pch
+//  BSKYDoctorPro
+//
+//  Created by Apple on 2017/7/18.
+//  Copyright © 2017年 ky. All rights reserved.
+//
+
+#ifndef BSKYDoctorPro_pch
+#define BSKYDoctorPro_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+// pod
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <BSKYCore/BSCategories.h>
+#import <BSKYCore/BSLib.h>
+#import <BSKYCore/BSKit.h>
+#import <YTKNetwork.h>
+#import <SAMKeychain/SAMKeychain.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#import <UIView+Toast.h>
+#import <YYWebImage/YYWebImage.h>
+#import <MJRefresh/MJRefresh.h>
+#import <UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <YYCategories/YYCategories.h>
+#import <HMSegmentedControl/HMSegmentedControl.h>
+#import <UMCAnalytics/UMAnalytics/MobClick.h>
+
+// NIM 相关
+#import <NIMKit/NIMKit.h>
+#import <NIMAVChat/NIMAVChat.h>
+#import <NIMSDK/NIMSDK.h>
+#import "NTESGlobalMacro.h"
+#import "CocoaLumberjack.h"
+#import "NIMContactDataCell+BSKY.h"
+
+#ifdef DEBUG
+static DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static DDLogLevel ddLogLevel = DDLogLevelInfo;
+#endif
+
+// Category
+#import "NSObject+SystemInfo.h"
+#import "UIImage+Extension.h"
+#import "UIView+Appearance.h"
+#import "UITableViewCell+Extension.h"
+#import "UIView+BSToast.h"
+#import "UIView+Badge.h"
+#import "NSString+Extension.h"
+#import "UIView+Border.h"
+#import "NSDateFormatter+BSKY.h"
+#import "MBProgressHUD+BSKY.h"
+#import "UIColor+Extension.h"
+#import "UIScrollView+ClearBlank.h"
+#import "UIButton+BSKY.h"
+#import "NSArray+CBC.h"
+
+// System
+#import "BskyMacroDefinition.h"
+#import "BSMacro.h"
+#import "BskyEnum.h"
+#import "BSModel.h"
+#import "BSAPI.h"
+#import "BSAppManager.h"
+#import "BSNavigationViewController.h"
+#import "BSWebViewController.h"
+#import "BSTextField.h"
+#import "InterviewInputModel.h"
+#import "FormBaseCell.h"
+
+// Vender
+#import "ZZYQRCode.h"
+
+#endif
+#endif /* BSKYDoctorPro_pch */

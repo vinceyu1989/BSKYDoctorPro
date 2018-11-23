@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="ArchiveFamilySearchView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgZ-F1-cBU">
+                    <rect key="frame" x="315" y="10" width="45" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="Cgs-w2-TxQ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="searchAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="hOG-hZ-lo4"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqJ-U1-bJj">
+                    <rect key="frame" x="15" y="10" width="295" height="35"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="PBc-fZ-dLU">
+                            <rect key="frame" x="10" y="10" width="14" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="BxH-RV-4bG"/>
+                                <constraint firstAttribute="width" constant="14" id="yC3-yT-PRe"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTe-Jh-yco">
+                            <rect key="frame" x="261" y="6.5" width="24" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="FSn-gx-eYz"/>
+                                <constraint firstAttribute="width" constant="24" id="RDb-gL-Uub"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="QRicon"/>
+                            <connections>
+                                <action selector="QRCheckAtcion:" destination="iN0-l3-epB" eventType="touchUpInside" id="bpB-mz-iuX"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入居民姓名或身份证号" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="03R-Jh-Qzq">
+                            <rect key="frame" x="34" y="7.5" width="217" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="ogw-zr-zKD"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="LTe-Jh-yco" firstAttribute="leading" secondItem="03R-Jh-Qzq" secondAttribute="trailing" constant="10" id="2CC-z0-uRR"/>
+                        <constraint firstItem="03R-Jh-Qzq" firstAttribute="centerY" secondItem="XqJ-U1-bJj" secondAttribute="centerY" id="GfJ-ms-a1t"/>
+                        <constraint firstItem="PBc-fZ-dLU" firstAttribute="leading" secondItem="XqJ-U1-bJj" secondAttribute="leading" constant="10" id="TT6-XE-LLy"/>
+                        <constraint firstItem="03R-Jh-Qzq" firstAttribute="leading" secondItem="PBc-fZ-dLU" secondAttribute="trailing" constant="10" id="eIK-zD-KvY"/>
+                        <constraint firstItem="PBc-fZ-dLU" firstAttribute="centerY" secondItem="XqJ-U1-bJj" secondAttribute="centerY" id="kID-Qm-tOf"/>
+                        <constraint firstAttribute="trailing" secondItem="LTe-Jh-yco" secondAttribute="trailing" constant="10" id="nIq-jy-sdY"/>
+                        <constraint firstItem="LTe-Jh-yco" firstAttribute="centerY" secondItem="XqJ-U1-bJj" secondAttribute="centerY" id="syU-4c-pBe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CgZ-F1-cBU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0Hu-Jv-FDB"/>
+                <constraint firstAttribute="bottom" secondItem="CgZ-F1-cBU" secondAttribute="bottom" constant="10" id="3wc-jE-EDs"/>
+                <constraint firstItem="CgZ-F1-cBU" firstAttribute="leading" secondItem="XqJ-U1-bJj" secondAttribute="trailing" constant="5" id="6Ea-0d-lyn"/>
+                <constraint firstItem="XqJ-U1-bJj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="GAn-t7-HS0"/>
+                <constraint firstItem="CgZ-F1-cBU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Udf-0d-qPH"/>
+                <constraint firstAttribute="trailing" secondItem="CgZ-F1-cBU" secondAttribute="trailing" constant="15" id="nBK-TN-4gj"/>
+                <constraint firstItem="XqJ-U1-bJj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="o0I-2v-StV"/>
+                <constraint firstAttribute="bottom" secondItem="XqJ-U1-bJj" secondAttribute="bottom" constant="10" id="sq9-rC-aZ2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="QRBtn" destination="LTe-Jh-yco" id="5qT-l3-yKb"/>
+                <outlet property="contentView" destination="XqJ-U1-bJj" id="nsH-1B-Yth"/>
+                <outlet property="searchBtn" destination="CgZ-F1-cBU" id="rBP-Bh-yLg"/>
+                <outlet property="searchIcon" destination="PBc-fZ-dLU" id="IW9-fi-1mZ"/>
+                <outlet property="searchTextField" destination="03R-Jh-Qzq" id="kx5-hD-mlB"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="76.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="QRicon" width="22" height="20"/>
+        <image name="search" width="14" height="15"/>
+    </resources>
+</document>

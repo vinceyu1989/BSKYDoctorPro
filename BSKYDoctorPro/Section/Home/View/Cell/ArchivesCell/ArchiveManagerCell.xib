@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="135" id="KGk-i7-Jjw" customClass="ArchiveManagerCell">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="134.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmF-pV-eDZ">
+                        <rect key="frame" x="282" y="13" width="35" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="UDh-bR-T5A"/>
+                            <constraint firstAttribute="height" constant="20" id="qqr-mf-4a7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="查看">
+                            <color key="titleColor" red="0.30588235294117649" green="0.49019607843137253" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="checkAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xv3-Xr-CGf"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ld1-h9-39t">
+                        <rect key="frame" x="237" y="13" width="35" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="TMS-Rm-8fM"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="fx3-SB-Ilc"/>
+                            <constraint firstAttribute="width" constant="35" id="vwc-9i-8WU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="编辑">
+                            <color key="titleColor" red="0.30588235289999999" green="0.49019607840000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="updateAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xcL-Dy-rFa"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8XO-95-wHi">
+                        <rect key="frame" x="0.0" y="44" width="332" height="90.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvj-aV-8IJ">
+                        <rect key="frame" x="0.0" y="44" width="332" height="0.5"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="EHe-2K-4XA"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家庭档案" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9p1-ed-wiC">
+                        <rect key="frame" x="15" y="13" width="79" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="79" id="xur-7Q-TwE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8XO-95-wHi" secondAttribute="trailing" id="55f-uH-Paa"/>
+                    <constraint firstItem="9p1-ed-wiC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="8TB-Jy-HXC"/>
+                    <constraint firstAttribute="trailing" secondItem="jmF-pV-eDZ" secondAttribute="trailing" constant="15" id="F5N-tb-r9P"/>
+                    <constraint firstItem="8XO-95-wHi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Hhd-tu-GS8"/>
+                    <constraint firstItem="jmF-pV-eDZ" firstAttribute="leading" secondItem="ld1-h9-39t" secondAttribute="trailing" constant="10" id="LOp-tW-Tb5"/>
+                    <constraint firstAttribute="trailing" secondItem="Rvj-aV-8IJ" secondAttribute="trailing" id="RjU-gY-MuN"/>
+                    <constraint firstItem="jmF-pV-eDZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="WKG-kk-tzg"/>
+                    <constraint firstItem="ld1-h9-39t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="Z3N-ii-pNR"/>
+                    <constraint firstItem="Rvj-aV-8IJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dCP-ps-a0X"/>
+                    <constraint firstItem="Rvj-aV-8IJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="44" id="oJZ-lY-0LL"/>
+                    <constraint firstItem="jmF-pV-eDZ" firstAttribute="leading" secondItem="ld1-h9-39t" secondAttribute="trailing" constant="10" id="pPw-2J-oT1"/>
+                    <constraint firstItem="9p1-ed-wiC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-1" id="pyI-Y8-aLb"/>
+                    <constraint firstAttribute="bottom" secondItem="8XO-95-wHi" secondAttribute="bottom" id="qx2-gd-c8k"/>
+                    <constraint firstItem="ld1-h9-39t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="rz0-hj-Zoe"/>
+                    <constraint firstItem="8XO-95-wHi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="44" id="t1k-3e-47t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkBtn" destination="jmF-pV-eDZ" id="C7b-JA-BFT"/>
+                <outlet property="lineView" destination="Rvj-aV-8IJ" id="WUg-jK-VKe"/>
+                <outlet property="subContentView" destination="8XO-95-wHi" id="Sa4-mg-8rY"/>
+                <outlet property="title" destination="9p1-ed-wiC" id="3Zp-vF-saT"/>
+                <outlet property="updateBtn" destination="ld1-h9-39t" id="bfC-va-pKT"/>
+            </connections>
+            <point key="canvasLocation" x="-90" y="85.5"/>
+        </tableViewCell>
+    </objects>
+</document>

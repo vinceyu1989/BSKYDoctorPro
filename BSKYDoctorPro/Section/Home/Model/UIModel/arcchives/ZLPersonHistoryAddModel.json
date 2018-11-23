@@ -1,0 +1,281 @@
+{
+    "diseaseHistory":{
+        "contentStr": "疾病史",
+        "code": "diseaseHistory",
+        "content": [
+                    {
+                    "title": "疾病",
+                    "descripe": "",
+                    "code": "diseaseKindId",
+                    "value": "",
+                    "placeholder": "请选择疾病",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "确诊时间",
+                    "descripe": "",
+                    "code": "dateStart",
+                    "value": "",
+                    "placeholder": "请选择确证时间",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "0"
+                    }
+                    ]
+    },
+    "diseaseHistoryEspecial":{
+        "contentStr": "疾病史",
+        "code": "diseaseHistoryEspecial",
+        "content": [
+                    {
+                    "title": "疾病",
+                    "descripe": "",
+                    "code": "diseaseKindId",
+                    "value": "",
+                    "placeholder": "请选择疾病",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "疾病名称",
+                    "descripe": "",
+                    "code": "diseaseDiscrebe",
+                    "value": "",
+                    "placeholder": "请输入相关疾病名称",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "确诊时间",
+                    "descripe": "",
+                    "code": "dateStart",
+                    "value": "",
+                    "placeholder": "请选择确证时间",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "0"
+                    }
+                    ]
+    },
+    "diseaseHistoryOther":{
+        "contentStr": "疾病史",
+        "code": "diseaseHistoryOther",
+        "content": [
+                    {
+                    "title": "疾病",
+                    "descripe": "",
+                    "code": "diseaseKindId",
+                    "value": "",
+                    "placeholder": "请选择疾病",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "疾病名称",
+                    "descripe": "",
+                    "code": "diseaseDiscrebe",
+                    "value": "",
+                    "placeholder": "请选择相关疾病名称",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "12"
+                    },
+                    {
+                    "title": "确诊时间",
+                    "descripe": "",
+                    "code": "dateStart",
+                    "value": "",
+                    "placeholder": "请选择确证时间",
+                    "isRequire": "0",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "0"
+                    }
+                    ]
+    },
+    "surgeryHistory":{
+        "contentStr": "手术",
+        "code": "surgeryHistory",
+        "content":[
+                   {
+                   "title": "手术",
+                   "code": "resultValue",
+                   "value": "",
+                   "placeholder": "请输入手术描述",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   },
+                   {
+                   "title": "确诊时间",
+                   "descripe": "",
+                   "code": "dateStart",
+                   "value": "",
+                   "placeholder": "请选择确证时间",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "0"
+                   }
+                   ]
+    },
+    "traumaHistory":{
+        "contentStr": "外伤史",
+        "code": "traumaHistory",
+        "content":[
+                   {
+                   "title": "外伤",
+                   "code": "resultValue",
+                   "value": "",
+                   "placeholder": "请输入外伤描述",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   },
+                   {
+                   "title": "确诊时间",
+                   "descripe": "",
+                   "code": "dateStart",
+                   "value": "",
+                   "placeholder": "请选择确证时间",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "0"
+                   }
+                   ]
+    },
+    "bloodHistory":{
+        "contentStr": "输血史",
+        "code": "bloodHistory",
+        "content":[
+                   {
+                   "title": "输血",
+                   "code": "resultValue",
+                   "value": "",
+                   "placeholder": "请输入输血描述",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "2"
+                   },
+                   {
+                   "title": "确诊时间",
+                   "descripe": "",
+                   "code": "dateStart",
+                   "value": "",
+                   "placeholder": "请选择确证时间",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "0"
+                   }
+                   ]
+    },
+    "familyHistory":{
+        "contentStr": "家族史",
+        "code": "familyHistory",
+        "content":[
+                   {
+                   "title": "亲属",
+                   "code": "relationshipType",
+                   "value": "",
+                   "placeholder": "请选择亲属",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "1"
+                   },
+                   {
+                   "title": "疾病",
+                   "descripe": "",
+                   "code": "disease",
+                   "value": "",
+                   "placeholder": "请输入其他疾病名称",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "6",
+                   "selectModel": {
+                   "multiple": "1",
+                   "options": [
+                               {
+                               "title": "无",
+                               "value": "1"
+                               },
+                               {
+                               "title": "高血压",
+                               "value": "2"
+                               },
+                               {
+                               "title": "糖尿病",
+                               "value": "4"
+                               },
+                               {
+                               "title": "冠心病",
+                               "value": "8"
+                               },
+                               {
+                               "title": "慢性阻塞性肺疾病",
+                               "value": "16"
+                               },
+                               {
+                               "title": "重型精神病",
+                               "value": "32"
+                               },
+                               {
+                               "title": "肝炎",
+                               "value": "64"
+                               },
+                               {
+                               "title": "先天畸形",
+                               "value": "128"
+                               },
+                               {
+                               "title": "恶性肿瘤",
+                               "value": "256"
+                               },
+                               {
+                               "title": "脑中猝",
+                               "value": "512"
+                               },
+                               {
+                               "title": "肺结核",
+                               "value": "1024"
+                               }
+                               ]
+                   }
+                   }
+                   ]
+    },
+    "drugAllergyOther":{
+        "contentStr": "药物过敏史",
+        "code": "drugAllergyOther",
+        "content":[
+                   {
+                   "title": "",
+                   "code": "drugAllergyOther",
+                   "value": "",
+                   "placeholder": "",
+                   "isRequire": "0",
+                   "canEdit": "1",
+                   "contentStr": "",
+                   "type": "3"
+                   }
+                   ]
+    }
+}

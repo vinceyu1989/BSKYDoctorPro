@@ -1,0 +1,795 @@
+{
+    "baseInfo": {
+        "contentStr": "个人基本信息",
+        "content": [
+                    {
+                    "title": "照片",
+                    "code": "Photo",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "11"
+                    },
+                    {
+                    "title": "建档日期",
+                    "code": "BuildDate",
+                    "value": "",
+                    "placeholder": "请选择",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "0"
+                    },
+                    {
+                    "title": "姓名",
+                    "code": "Name",
+                    "value": "",
+                    "placeholder": "请输入",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "身份证号",
+                    "code": "CardID",
+                    "value": "",
+                    "placeholder": "请输入",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "keybordType": "2",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "性别",
+                    "code": "GenderCode",
+                    "value": "",
+                    "placeholder": "填写身份证自动获取",
+                    "isRequire": "1",
+                    "canEdit": "0",
+                    "contentStr": "",
+                    "type": "4"
+                    },
+                    {
+                    "title": "出生日期",
+                    "code": "BirthDay",
+                    "value": "",
+                    "placeholder": "填写身份证自动获取",
+                    "isRequire": "1",
+                    "canEdit": "0",
+                    "contentStr": "",
+                    "type": "4"
+                    },
+                    {
+                    "title": "本人电话",
+                    "code": "PersonTel",
+                    "value": "",
+                    "keybordType": "4",
+                    "placeholder": "请输入本人电话号码",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "民族",
+                    "code": "NationCode",
+                    "value": "",
+                    "placeholder": "请选择",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "户口类型",
+                    "code": "ResType",
+                    "sourceCode": "gw_node_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "7",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "农业",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "非农业",
+                                "value": "2"
+                                },
+                                ]
+                    }
+                    },
+                    {
+                    "title": "常住类型",
+                    "code": "HukouInd",
+                    "sourceCode": "gw_resident_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "7",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "户籍",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "非户籍",
+                                "value": "2"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "流动人口",
+                    "code": "IsFlowing",
+                    "value": "",
+                    "sourceCode": "gw_IsFlowing_type",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "7",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "是",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "否",
+                                "value": "2"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "与户主关系",
+                    "code": "HouseholderRelationship",
+                    "value": "",
+                    "placeholder": "请选择",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "1"
+                    },
+                    {
+                    "title": "现住地",
+                    "code": "CurrentAddress",
+                    "value": "",
+                    "placeholder": "请输入现住址",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "户籍地址",
+                    "code": "ResidenceAddress",
+                    "value": "",
+                    "placeholder": "请输入户籍地址",
+                    "isRequire": "1",
+                    "canEdit": "0",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "联系人姓名",
+                    "code": "ContactPerson",
+                    "value": "",
+                    "placeholder": "请输入联系人姓名",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "联系人电话",
+                    "code": "ContactTel",
+                    "value": "",
+                    "placeholder": "请输入联系人电话",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "keybordType": "4",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "责任医生或护士",
+                    "code": "ResponsibilityDoctor",
+                    "value": "",
+                    "placeholder": "请选择",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "12"
+                    }
+                    ]
+    },
+    "relateInfo": {
+        "contentStr": "相关信息",
+        "content": [
+                    {
+                    "title": "工作单位",
+                    "code": "WorkOrgName",
+                    "value": "",
+                    "placeholder": "请输入工作单位",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "2"
+                    },
+                    {
+                    "title": "ABO血型",
+                    "code": "BloodType",
+                    "sourceCode": "gw_abo_flood_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "A型",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "B型",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "O型",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "AB型",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "不详",
+                                "value": "5"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "RH阴性",
+                    "code": "RhBlood",
+                    "sourceCode": "gw_rh_flood_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "否",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "是",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "不详",
+                                "value": "3"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "文化程度",
+                    "code": "EducationCode",
+                    "sourceCode": "gw_education_degree",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "研究生",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "大学本科",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "大学专科和专科学校",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "中等专业学校",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "技工学校",
+                                "value": "5"
+                                },
+                                {
+                                "lebel": "高中",
+                                "value": "6"
+                                },
+                                {
+                                "lebel": "初中",
+                                "value": "7"
+                                },
+                                {
+                                "lebel": "小学",
+                                "value": "8"
+                                },
+                                {
+                                "lebel": "文盲或半文盲",
+                                "value": "9"
+                                },
+                                {
+                                "lebel": "不详",
+                                "value": "10"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "职业",
+                    "code": "JobCode",
+                    "sourceCode": "gw_occupation",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "国家机关、党群组织、企业事业单位负责人",
+                                "value": "0"
+                                },
+                                {
+                                "lebel": "专业技术人员",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "办事人员和有关人员",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "商业、服务人员",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "军人",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "农、林、牧、副、渔、水利业生产人员",
+                                "value": "5"
+                                },
+                                {
+                                "lebel": "生产、运输设备操作人员及有关人员",
+                                "value": "6"
+                                },
+                                {
+                                "lebel": "不便分类的其他从业人员",
+                                "value": "7"
+                                },
+                                {
+                                "lebel": "无职业",
+                                "value": "8"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "婚姻状况",
+                    "code": "MarryStatus",
+                    "sourceCode": "gw_marital_status",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "未婚",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "已婚",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "丧偶",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "离婚",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "未说明的婚姻状况",
+                                "value": "5"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "医疗费用支付方式",
+                    "code": "PaymentWaystring",
+                    "sourceCode": "gw_payment_method",
+                    "value": "",
+                    "placeholder": "输入其他支付方式",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "6",
+                    "selectModel": {
+                    "multiple": "1",
+                    "options": [
+                                {
+                                "lebel": "全自费",
+                                "value": "64"
+                                },
+                                {
+                                "lebel": "全公费",
+                                "value": "32"
+                                },
+                                {
+                                "lebel": "城镇职工基本医疗保险",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "城镇居民基本医疗保险",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "贫困求助",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "新型农村合作医疗",
+                                "value": "8"
+                                },
+                                {
+                                "lebel": "商业医疗保险",
+                                "value": "16"
+                                },
+                                {
+                                "lebel": "其他",
+                                "value": "128"
+                                }
+                                ]
+                    }
+                    }
+                    ]
+    },
+    "medicalHistoryInfo": {
+        "contentStr": "病史相关",
+        "content": [
+                    {
+                    "title": "药物过敏史(多选)",
+                    "code": "DrugAllergyHistory",
+                    "sourceCode": "gw_drup_allergy_history",
+                    "value": "",
+                    "placeholder": "请输入其他药物过敏史",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "6",
+                    "selectModel": {
+                    "multiple": "1",
+                    "options": [
+                                {
+                                "lebel": "无",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "青霉素",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "磺胺",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "链霉素",
+                                "value": "8"
+                                },
+                                {
+                                "lebel": "其他",
+                                "value": "16"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "暴露史(多选)",
+                    "code": "ExposureHistory",
+                    "sourceCode": "gw_exposure",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "1",
+                    "options": [
+                                {
+                                "lebel": "无",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "化学品",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "毒药",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "射线",
+                                "value": "8"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "残疾情况(多选)",
+                    "code": "Disability",
+                    "sourceCode": "gw_disability",
+                    "value": "",
+                    "placeholder": "请输入其他残疾情况",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "6",
+                    "selectModel": {
+                    "multiple": "1",
+                    "options": [
+                                {
+                                "lebel": "无残疾",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "视力残疾",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "听力残疾",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "语言残疾",
+                                "value": "8"
+                                },
+                                {
+                                "lebel": "肢体残疾",
+                                "value": "16"
+                                },
+                                {
+                                "lebel": "智力残疾",
+                                "value": "32"
+                                },
+                                {
+                                "lebel": "精神残疾",
+                                "value": "64"
+                                },
+                                {
+                                "lebel": "其他残疾",
+                                "value": "128"
+                                }
+                                ]
+                    }
+                    }
+                    ]
+    },
+    "environment": {
+        "contentStr": "生活环境",
+        "content": [
+                    {
+                    "title": "厨房排风设施",
+                    "code": "KitchenExhaust",
+                    "sourceCode": "gw_kitchen_facilities",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "无",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "油烟机",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "排风扇",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "烟囱",
+                                "value": "8"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "燃料类型",
+                    "code": "FuelType",
+                    "sourceCode": "gw_fuel_type",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "液化气",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "煤",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "天然气",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "沼气",
+                                "value": "8"
+                                },
+                                {
+                                "lebel": "柴火",
+                                "value": "16"
+                                },
+                                {
+                                "lebel": "其他",
+                                "value": "32"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "饮水",
+                    "code": "Drinkingwater",
+                    "sourceCode": "gw_drinking_water",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "自来水",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "经净化过滤的水",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "井水",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "河湖水",
+                                "value": "8"
+                                },
+                                {
+                                "lebel": "塘水",
+                                "value": "16"
+                                },
+                                {
+                                "lebel": "其他",
+                                "value": "32"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "厕所",
+                    "code": "Toilet",
+                    "sourceCode": "gw_toilet",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "卫生厕所",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "一格或二格粪池式",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "马桶",
+                                "value": "3"
+                                },
+                                {
+                                "lebel": "露天粪池",
+                                "value": "4"
+                                },
+                                {
+                                "lebel": "简易棚厕",
+                                "value": "5"
+                                }
+                                ]
+                    }
+                    },
+                    {
+                    "title": "禽畜栏",
+                    "code": "LivestockColumn",
+                    "sourceCode": "gw_a_bird",
+                    "value": "",
+                    "placeholder": "",
+                    "isRequire": "1",
+                    "canEdit": "1",
+                    "contentStr": "",
+                    "type": "3",
+                    "selectModel": {
+                    "multiple": "0",
+                    "options": [
+                                {
+                                "lebel": "单设",
+                                "value": "1"
+                                },
+                                {
+                                "lebel": "室内",
+                                "value": "2"
+                                },
+                                {
+                                "lebel": "室外",
+                                "value": "4"
+                                }
+                                ]
+                    }
+                    }
+                    ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "diabetes":
+    [
+        [
+             {"title":"足背动脉搏动","contentStr":"","placeholder":"","options":["未触及","触及"]},
+         
+             {"title":"视力","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"左眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"},
+                             {"title":"右眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"}]
+             },
+         
+             {"title":"矫正视力","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"左眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"},
+                             {"title":"右眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"}]
+            },
+         
+             {"title":"听力","contentStr":"","placeholder":"","options":["听见","听不见或听不清"]},
+         
+             {"title":"运动","contentStr":"","placeholder":"","options":["可顺利完成","无法独立完成"]}
+        ],
+        [
+             {"title":"日饮酒量(两/日)","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"当前","min":0,"max":30,"point":1, "unit":"两/日","content":"15"},
+                             {"title":"目标","min":0,"max":30,"point":1, "unit":"两/日","content":"15"}]
+             },
+         
+             {"title":"日吸烟量(支/日)","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"当前","min":0,"max":60,"point":1, "unit":"支/日","content":"30"},
+                             {"title":"目标","min":0,"max":60,"point":1, "unit":"支/日","content":"30"}]
+             },
+         
+             {"title":"主食(克/日)","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"当前","min":0,"max":800,"point":1,"multiple":10,"unit":"克/日"},
+                             {"title":"目标","min":0,"max":800,"point":1, "multiple":10,"unit":"克/日"}]
+             },
+         
+             {"title":"运动次数(次/周)","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"当前","min":0,"max":50,"point":1, "unit":"次/周"},
+                             {"title":"目标","min":0,"max":50,"point":1, "unit":"次/周"}]
+             },
+         
+             {"title":"运动时间(分钟/次)","contentStr":"","placeholder":"请选择","options":[],
+             "pickerModels":[{"title":"当前","min":0,"max":200,"point":1,"multiple":10, "unit":"分钟/次","content":"30"},
+                             {"title":"目标","min":0,"max":200,"point":1,"multiple":10, "unit":"分钟/次","content":"30"}]
+             },
+             {"title":"心理调整","contentStr":"","placeholder":"请选择","options":[],
+             "types":["良好","一般","差"]
+             },
+             {"title":"遵医行为","contentStr":"","placeholder":"请选择","options":[],
+             "types":["良好","一般","差"]
+             }
+         ],
+         [],
+         [
+              {"title":"服药依从性","contentStr":"","placeholder":"请选择","options":[],
+              "types":["规律","间断","不服药"]
+              },
+              {"title":"药物不良反应","contentStr":"","placeholder":"请选择","options":[],
+               "types":["无","有"]
+              },
+              {"title":"低血糖反应","contentStr":"","placeholder":"请选择","options":[],
+               "types":["无","偶尔","频繁"]
+              }
+         ],
+        [],[],
+        [
+              {"title":"随访结局","contentStr":"","placeholder":"请输入"}
+        ],
+       []
+     ],
+    "hypertension":
+    [
+     [
+          {"title":"视力","contentStr":"","placeholder":"请选择","options":[],
+          "pickerModels":[{"title":"左眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"},
+                          {"title":"右眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"}]
+          },
+      
+          {"title":"矫正视力","contentStr":"","placeholder":"请选择","options":[],
+          "pickerModels":[{"title":"左眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"},
+                          {"title":"右眼","min":0,"max":60,"point":10, "unit":"","content":"2.0"}]
+         },
+      
+          {"title":"听力","contentStr":"","placeholder":"","options":["听见","听不见或听不清"]},
+      
+          {"title":"运动","contentStr":"","placeholder":"","options":["可顺利完成","无法独立完成"]}
+     ],
+     [
+      {"title":"日饮酒量(两/日)","contentStr":"","placeholder":"请选择","options":[],
+      "pickerModels":[{"title":"当前","min":0,"max":30,"point":1, "unit":"两/日"},
+                      {"title":"目标","min":0,"max":30,"point":1, "unit":"两/日"}]
+      },
+      
+      {"title":"日吸烟量(支/日)","contentStr":"","placeholder":"请选择","options":[],
+      "pickerModels":[{"title":"当前","min":0,"max":60,"point":1, "unit":"支/日"},
+                      {"title":"目标","min":0,"max":60,"point":1, "unit":"支/日"}]
+      },
+      
+      {"title":"摄盐情况","contentStr":"","placeholder":"请选择","options":[],
+      "types":["轻","中","重"]
+      },
+      {"title":"目标摄盐情况","contentStr":"","placeholder":"请选择","options":[],
+      "types":["轻","中","重"]
+      },
+      
+      {"title":"运动次数(次/周)","contentStr":"","placeholder":"请选择","options":[],
+      "pickerModels":[{"title":"当前","min":0,"max":50,"point":1, "unit":"次/周"},
+                      {"title":"目标","min":0,"max":50,"point":1, "unit":"次/周"}]
+      },
+      
+      {"title":"运动时间(分钟/次)","contentStr":"","placeholder":"请选择","options":[],
+      "pickerModels":[{"title":"当前","min":0,"max":200,"point":1,"multiple":10, "unit":"分钟/次","content":"30"},
+                      {"title":"目标","min":0,"max":200,"point":1,"multiple":10, "unit":"分钟/次","content":"30"}]
+      },
+      {"title":"心理调整","contentStr":"","placeholder":"请选择","options":[],
+      "types":["良好","一般","差"]
+      },
+      {"title":"遵医行为","contentStr":"","placeholder":"请选择","options":[],
+      "types":["良好","一般","差"]
+      }
+     ],
+     [],
+     
+     [
+      {"title":"服药依从性","contentStr":"","placeholder":"请选择","options":[],
+      "types":["规律","间断","不服药"]
+      },
+      {"title":"药物不良反应","contentStr":"","placeholder":"请选择","options":[],
+       "types":["无","有"]
+      }
+      
+      ],
+      [],[],
+      [
+       {"title":"随访结局","contentStr":"","placeholder":"请输入"}
+      ],
+      []
+     ]
+}
